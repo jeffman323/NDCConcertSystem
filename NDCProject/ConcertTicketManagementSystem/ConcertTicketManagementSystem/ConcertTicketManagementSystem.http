@@ -1,0 +1,106 @@
+@ConcertTicketManagementSystem_HostAddress = https://localhost:7176
+
+POST {{ConcertTicketManagementSystem_HostAddress}}/api/eventManager/postVenueItem
+Content-Type: application/json
+
+{
+    "name": "TestVenue",
+    "Capacity": 200,
+    "AvailableDates": ["2026-02-14", "2026-02-15"]
+}
+
+###
+
+POST {{ConcertTicketManagementSystem_HostAddress}}/api/eventManager/postEventItem
+Content-Type: application/json
+
+{
+  "name": "TestEvent",
+  "date": "2026-02-15",
+  "description": "test description",
+  "capacity": 200,
+  "venue": {"name": "TestVenue"},  
+  "ticketPrices": [ ["General Admission", "10", "100", "100"], ["Front Row", "20", "10", "10"] ]
+}
+
+###
+
+GET {{ConcertTicketManagementSystem_HostAddress}}/api/eventManager/getVenueItems
+
+###
+
+GET {{ConcertTicketManagementSystem_HostAddress}}/api/eventManager/getEventItems
+
+###
+
+@id=1
+GET {{ConcertTicketManagementSystem_HostAddress}}/api/eventManager/getEventItem{{id}}
+
+###
+
+@id=1
+GET {{ConcertTicketManagementSystem_HostAddress}}/api/eventManager/getVenueItem{{id}}
+
+###
+
+PUT {{ConcertTicketManagementSystem_HostAddress}}/api/eventManager/putVenueItem{{id}}
+Content-Type: application/json
+
+{
+    "name": "TestVenueModified",
+    "Capacity": 201,
+    "AvailableDates": ["2026-02-14", "2026-02-16"]
+}
+
+###
+
+@id=1
+PUT {{ConcertTicketManagementSystem_HostAddress}}/api/eventManager/putEventItem{{id}}
+Content-Type: application/json
+
+{
+  "name": "TestEventModified",
+  "date": "2026-02-15",
+  "description": "test description modified",
+  "capacity": 150,
+  "venue": {"name": "TestVenue"},  
+  "ticketPrices": [ ["General Admission", "10", "110", "110"], ["Front Row", "20", "15", "15"] ]
+}
+
+###
+
+@id=1
+GET {{ConcertTicketManagementSystem_HostAddress}}/api/eventManager/getTicketsForEvent{{id}}
+
+###
+
+@id=1
+@duration=5
+@ticketType=General Admission
+@reservingUser=Jeff
+POST {{ConcertTicketManagementSystem_HostAddress}}/api/eventManager/reserveTicket{{id}}/{{duration}}/{{ticketType}}/{{reservingUser}}
+
+###
+
+@id=1
+@ticketType=General Admission
+@user=Jeff
+POST {{ConcertTicketManagementSystem_HostAddress}}/api/eventManager/buyTicker{{id}}?ticketType={{ticketType}}&user={{user}}
+
+###
+
+@id=1
+DELETE {{ConcertTicketManagementSystem_HostAddress}}/api/eventManager/deleteVenueItem{{id}}
+
+###
+
+@id=1
+DELETE {{ConcertTicketManagementSystem_HostAddress}}/api/eventManager/deleteEventItem{{id}}
+
+###
+
+@id=1
+@user=Jeff
+DELETE {{ConcertTicketManagementSystem_HostAddress}}/api/eventManager/deleteReservationItem{{id}}/{{user}}
+
+###

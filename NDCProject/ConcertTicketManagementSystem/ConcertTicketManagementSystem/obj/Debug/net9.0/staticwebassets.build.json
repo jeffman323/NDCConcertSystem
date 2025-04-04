@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "ADSBIaCIedS0PskUeDmprbGmNZS4ETkeAwtymCrRbgA=",
+  "Source": "ConcertTicketManagementSystem",
+  "BasePath": "_content/ConcertTicketManagementSystem",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
