@@ -612,7 +612,7 @@ namespace ConcertTicketManagementSystem.Controllers
             return NoContent();
         }
         
-        [HttpPost("buyTicker{id}")]
+        [HttpPost("buyTicket{id}")]
         public async Task<IActionResult> BuyTicket(long id, string ticketType, string user)
         {
             //First, make sure the event is valid
@@ -702,7 +702,7 @@ namespace ConcertTicketManagementSystem.Controllers
             return _eventContext.EventItems.Any(e => e.EventId == id);
         }
 
-        public string ValidateDates(List<string> dates, out List<string> validDates, out List<string> invalidDates)
+        private string ValidateDates(List<string> dates, out List<string> validDates, out List<string> invalidDates)
         {
             validDates = new List<string>();
             invalidDates = new List<string>();
@@ -778,7 +778,7 @@ namespace ConcertTicketManagementSystem.Controllers
             return null;
         }
 
-        public bool ValidateDateAndCapacity(EventItemDTO eventItem, VenueItem venueItem) 
+        private bool ValidateDateAndCapacity(EventItemDTO eventItem, VenueItem venueItem) 
         {
             // Check capacity first, for performance
             if (eventItem.Capacity <= venueItem.Capacity)

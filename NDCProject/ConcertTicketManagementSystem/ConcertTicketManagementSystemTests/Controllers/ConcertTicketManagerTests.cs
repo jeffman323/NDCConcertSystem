@@ -26,84 +26,6 @@ namespace ConcertTicketManagementSystem.Controllers.Tests
         }
 
         [TestMethod()]
-        public void ConcertTicketManagerTest()
-        {
-            if (_controller == null)
-            {
-                Assert.Fail();
-            }
-
-            // Validate Dates
-            List<string> dates = new List<string>();
-            dates.Add("2026-01-02");
-            dates.Add("2026-01-023");
-            List<string> validDates = new List<string>();
-            List<string> invalidDates = new List<string>();
-            _controller.ValidateDates(dates, out validDates, out invalidDates);
-            Assert.IsTrue(validDates.Count == 1);
-            Assert.IsTrue(invalidDates.Count == 1);
-        }
-
-        [TestMethod()]
-        public void ValidDatesTest()
-        {
-            if (_controller == null)
-            {
-                Assert.Fail();
-            }
-
-            // Setup
-            List<string> dates = new List<string>();
-            dates.Add("2026-01-02");
-            dates.Add("2026-01-023");
-            List<string> validDates = new List<string>();
-            List<string> invalidDates = new List<string>();
-            
-            _controller.ValidateDates(dates, out validDates, out invalidDates);
-
-            Assert.IsTrue(validDates.Count == 1);
-            Assert.IsTrue(invalidDates.Count == 1);
-        }
-
-
-        [TestMethod()]
-        public void ValidDateAndCapacityTest()
-        {
-            if (_controller == null)
-            {
-                Assert.Fail();
-            }
-
-            // Setup
-            VenueItem venueItem = new VenueItem
-            {
-                Name = "test",
-                Capacity = 5,
-                AvailableDates = ["2026-02-15"],
-            };
-            EventItemDTO eventItem = new EventItemDTO
-            {
-                Name = "test",
-                Capacity = 10,
-                Date = "2026-02-15",
-                TicketPrices = []
-            };
-
-            // Fail on capacity
-            Assert.IsFalse(_controller.ValidateDateAndCapacity(eventItem, venueItem));
-
-            venueItem.Capacity = 10;
-
-            // Pass for good match
-            Assert.IsTrue(_controller.ValidateDateAndCapacity(eventItem, venueItem));
-
-            venueItem.AvailableDates.RemoveAt(0);
-
-            // fail on date
-            Assert.IsFalse(_controller.ValidateDateAndCapacity(eventItem, venueItem));
-        }
-
-        [TestMethod()]
         public async Task PostVenueTest()
         {
             if (_controller == null)
@@ -120,7 +42,7 @@ namespace ConcertTicketManagementSystem.Controllers.Tests
             };
 
             ActionResult<string> result = await _controller.PostVenueItem(venueItem);
-            Assert.IsTrue(result.Result?.GetType() == typeof(Microsoft.AspNetCore.Mvc.BadRequestObjectResult));
+            Assert.IsTrue(result.Result?.GetType() == typeof(BadRequestObjectResult));
         }
 
         [TestMethod()]
@@ -141,7 +63,7 @@ namespace ConcertTicketManagementSystem.Controllers.Tests
             };
 
             ActionResult<string> result = await _controller.PostEventItem(eventItem);
-            Assert.IsTrue(result.Result?.GetType() == typeof(Microsoft.AspNetCore.Mvc.BadRequestObjectResult));
+            Assert.IsTrue(result.Result?.GetType() == typeof(BadRequestObjectResult));
         }
     }
 }

@@ -2,7 +2,7 @@
   {
     "ContainingType": "ConcertTicketManagementSystem.Controllers.ConcertTicketManager",
     "Method": "BuyTicket",
-    "RelativePath": "api/eventManager/buyTicker{id}",
+    "RelativePath": "api/eventManager/buyTicket{id}",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,

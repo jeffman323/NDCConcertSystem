@@ -85,7 +85,7 @@ POST {{ConcertTicketManagementSystem_HostAddress}}/api/eventManager/reserveTicke
 @id=1
 @ticketType=General Admission
 @user=Jeff
-POST {{ConcertTicketManagementSystem_HostAddress}}/api/eventManager/buyTicker{{id}}?ticketType={{ticketType}}&user={{user}}
+POST {{ConcertTicketManagementSystem_HostAddress}}/api/eventManager/buyTicket{{id}}?ticketType={{ticketType}}&user={{user}}
 
 ###
 
