@@ -2,6 +2,7 @@
 
 ## Thank you for taking the time to review my concert ticket reservation system! 
 - The majority of the operational code can be found in ConcertTicketManagementSystem/Controllers/ConcertTicketManager.cs
+- An image list of the available HTTP methods is available in the ConcertTicketManagementSystem top level folder
 - Unit tests are included in ConcertTicketManagementSystemTests/Controllers/ConcertTicketManagerTests.cs
 - Sample well-formed requests are available in ConcertTicketManagementSystem/ConcertTicketManagementSystem.http
 
