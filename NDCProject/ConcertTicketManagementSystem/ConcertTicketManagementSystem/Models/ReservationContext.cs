@@ -1,6 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore;
-using ConcertTicketManagementSystem.Models;
-namespace ConcertTicketManagementSystem.Models;
+﻿namespace ConcertTicketManagementSystem.Models;
 
 using Microsoft.EntityFrameworkCore;
 

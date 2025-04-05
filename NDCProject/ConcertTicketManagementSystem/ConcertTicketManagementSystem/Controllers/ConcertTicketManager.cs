@@ -1,8 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using ConcertTicketManagementSystem.Models;
-using System.Linq;
-using System.Net.Sockets;
 
 namespace ConcertTicketManagementSystem.Controllers
 {
@@ -704,7 +702,7 @@ namespace ConcertTicketManagementSystem.Controllers
             return _eventContext.EventItems.Any(e => e.EventId == id);
         }
 
-        private string ValidateDates(List<string> dates, out List<string> validDates, out List<string> invalidDates)
+        public string ValidateDates(List<string> dates, out List<string> validDates, out List<string> invalidDates)
         {
             validDates = new List<string>();
             invalidDates = new List<string>();
@@ -780,7 +778,7 @@ namespace ConcertTicketManagementSystem.Controllers
             return null;
         }
 
-        private bool ValidateDateAndCapacity(EventItemDTO eventItem, VenueItem venueItem) 
+        public bool ValidateDateAndCapacity(EventItemDTO eventItem, VenueItem venueItem) 
         {
             // Check capacity first, for performance
             if (eventItem.Capacity <= venueItem.Capacity)

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ConcertTicketManagementSystem")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e9fb46efdac3f2b86d912987dec7a84bcdd85082")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a79064fd1f3b49bfeec1cd534796468a7564ca01")]
 [assembly: System.Reflection.AssemblyProductAttribute("ConcertTicketManagementSystem")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ConcertTicketManagementSystem")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

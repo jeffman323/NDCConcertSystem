@@ -3,12 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\jtucker\\NDCConcertSystem\\NDCProject\\ConcertTicketManagementSystem\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0C6DB847-E4FF-4C64-B7EC-5CDF85EF37B5}|ConcertTicketManagementSystemTests\\ConcertTicketManagementSystemTests.csproj|c:\\users\\jtucker\\ndcconcertsystem\\ndcproject\\concertticketmanagementsystem\\concertticketmanagementsystemtests\\controllers\\concertticketmanagertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C6DB847-E4FF-4C64-B7EC-5CDF85EF37B5}|ConcertTicketManagementSystemTests\\ConcertTicketManagementSystemTests.csproj|solutionrelative:concertticketmanagementsystemtests\\controllers\\concertticketmanagertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D1A89043-B3D4-4816-B575-0E2C17F2FAA6}|ConcertTicketManagementSystem\\ConcertTicketManagementSystem.csproj|c:\\users\\jtucker\\ndcconcertsystem\\ndcproject\\concertticketmanagementsystem\\concertticketmanagementsystem\\controllers\\concertticketmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D1A89043-B3D4-4816-B575-0E2C17F2FAA6}|ConcertTicketManagementSystem\\ConcertTicketManagementSystem.csproj|solutionrelative:concertticketmanagementsystem\\controllers\\concertticketmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{D1A89043-B3D4-4816-B575-0E2C17F2FAA6}|ConcertTicketManagementSystem\\ConcertTicketManagementSystem.csproj|c:\\users\\jtucker\\ndcconcertsystem\\ndcproject\\concertticketmanagementsystem\\concertticketmanagementsystem\\models\\reservationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1A89043-B3D4-4816-B575-0E2C17F2FAA6}|ConcertTicketManagementSystem\\ConcertTicketManagementSystem.csproj|solutionrelative:concertticketmanagementsystem\\models\\reservationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1A89043-B3D4-4816-B575-0E2C17F2FAA6}|ConcertTicketManagementSystem\\ConcertTicketManagementSystem.csproj|c:\\users\\jtucker\\ndcconcertsystem\\ndcproject\\concertticketmanagementsystem\\concertticketmanagementsystem\\models\\eventitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1A89043-B3D4-4816-B575-0E2C17F2FAA6}|ConcertTicketManagementSystem\\ConcertTicketManagementSystem.csproj|solutionrelative:concertticketmanagementsystem\\models\\eventitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D1A89043-B3D4-4816-B575-0E2C17F2FAA6}|ConcertTicketManagementSystem\\ConcertTicketManagementSystem.csproj|c:\\users\\jtucker\\ndcconcertsystem\\ndcproject\\concertticketmanagementsystem\\concertticketmanagementsystem\\concertticketmanagementsystem.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
       "RelativeMoniker": "D:0:0:{D1A89043-B3D4-4816-B575-0E2C17F2FAA6}|ConcertTicketManagementSystem\\ConcertTicketManagementSystem.csproj|solutionrelative:concertticketmanagementsystem\\concertticketmanagementsystem.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1A89043-B3D4-4816-B575-0E2C17F2FAA6}|ConcertTicketManagementSystem\\ConcertTicketManagementSystem.csproj|c:\\users\\jtucker\\ndcconcertsystem\\ndcproject\\concertticketmanagementsystem\\concertticketmanagementsystem\\models\\venuecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1A89043-B3D4-4816-B575-0E2C17F2FAA6}|ConcertTicketManagementSystem\\ConcertTicketManagementSystem.csproj|solutionrelative:concertticketmanagementsystem\\models\\venuecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D1A89043-B3D4-4816-B575-0E2C17F2FAA6}|ConcertTicketManagementSystem\\ConcertTicketManagementSystem.csproj|c:\\users\\jtucker\\ndcconcertsystem\\ndcproject\\concertticketmanagementsystem\\concertticketmanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,16 +39,8 @@
       "RelativeMoniker": "D:0:0:{D1A89043-B3D4-4816-B575-0E2C17F2FAA6}|ConcertTicketManagementSystem\\ConcertTicketManagementSystem.csproj|solutionrelative:concertticketmanagementsystem\\models\\eventitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D1A89043-B3D4-4816-B575-0E2C17F2FAA6}|ConcertTicketManagementSystem\\ConcertTicketManagementSystem.csproj|c:\\users\\jtucker\\ndcconcertsystem\\ndcproject\\concertticketmanagementsystem\\concertticketmanagementsystem\\models\\eventitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1A89043-B3D4-4816-B575-0E2C17F2FAA6}|ConcertTicketManagementSystem\\ConcertTicketManagementSystem.csproj|solutionrelative:concertticketmanagementsystem\\models\\eventitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D1A89043-B3D4-4816-B575-0E2C17F2FAA6}|ConcertTicketManagementSystem\\ConcertTicketManagementSystem.csproj|c:\\users\\jtucker\\ndcconcertsystem\\ndcproject\\concertticketmanagementsystem\\concertticketmanagementsystem\\models\\reservationitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D1A89043-B3D4-4816-B575-0E2C17F2FAA6}|ConcertTicketManagementSystem\\ConcertTicketManagementSystem.csproj|solutionrelative:concertticketmanagementsystem\\models\\reservationitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D1A89043-B3D4-4816-B575-0E2C17F2FAA6}|ConcertTicketManagementSystem\\ConcertTicketManagementSystem.csproj|c:\\users\\jtucker\\ndcconcertsystem\\ndcproject\\concertticketmanagementsystem\\concertticketmanagementsystem\\models\\reservationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1A89043-B3D4-4816-B575-0E2C17F2FAA6}|ConcertTicketManagementSystem\\ConcertTicketManagementSystem.csproj|solutionrelative:concertticketmanagementsystem\\models\\reservationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D1A89043-B3D4-4816-B575-0E2C17F2FAA6}|ConcertTicketManagementSystem\\ConcertTicketManagementSystem.csproj|c:\\users\\jtucker\\ndcconcertsystem\\ndcproject\\concertticketmanagementsystem\\concertticketmanagementsystem\\models\\venueitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,17 +54,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ConcertTicketManager.cs",
               "DocumentMoniker": "C:\\Users\\jtucker\\NDCConcertSystem\\NDCProject\\ConcertTicketManagementSystem\\ConcertTicketManagementSystem\\Controllers\\ConcertTicketManager.cs",
               "RelativeDocumentMoniker": "ConcertTicketManagementSystem\\Controllers\\ConcertTicketManager.cs",
               "ToolTip": "C:\\Users\\jtucker\\NDCConcertSystem\\NDCProject\\ConcertTicketManagementSystem\\ConcertTicketManagementSystem\\Controllers\\ConcertTicketManager.cs",
               "RelativeToolTip": "ConcertTicketManagementSystem\\Controllers\\ConcertTicketManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAANkAAAAAAAAAAAAQwAsCAAB2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-02T20:10:10.773Z",
               "IsPinned": true,
@@ -64,7 +72,21 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
+              "Title": "ConcertTicketManagerTests.cs",
+              "DocumentMoniker": "C:\\Users\\jtucker\\NDCConcertSystem\\NDCProject\\ConcertTicketManagementSystem\\ConcertTicketManagementSystemTests\\Controllers\\ConcertTicketManagerTests.cs",
+              "RelativeDocumentMoniker": "ConcertTicketManagementSystemTests\\Controllers\\ConcertTicketManagerTests.cs",
+              "ToolTip": "C:\\Users\\jtucker\\NDCConcertSystem\\NDCProject\\ConcertTicketManagementSystem\\ConcertTicketManagementSystemTests\\Controllers\\ConcertTicketManagerTests.cs",
+              "RelativeToolTip": "ConcertTicketManagementSystemTests\\Controllers\\ConcertTicketManagerTests.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAAJYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T00:00:44.571Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "EventItem.cs",
               "DocumentMoniker": "C:\\Users\\jtucker\\NDCConcertSystem\\NDCProject\\ConcertTicketManagementSystem\\ConcertTicketManagementSystem\\Models\\EventItem.cs",
               "RelativeDocumentMoniker": "ConcertTicketManagementSystem\\Models\\EventItem.cs",
@@ -73,11 +95,12 @@
               "ViewState": "AgIAAAUAAAAAAAAAAAAxwBMAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-02T19:44:11.331Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "VenueItem.cs",
               "DocumentMoniker": "C:\\Users\\jtucker\\NDCConcertSystem\\NDCProject\\ConcertTicketManagementSystem\\ConcertTicketManagementSystem\\Models\\VenueItem.cs",
               "RelativeDocumentMoniker": "ConcertTicketManagementSystem\\Models\\VenueItem.cs",
@@ -90,7 +113,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\jtucker\\NDCConcertSystem\\NDCProject\\ConcertTicketManagementSystem\\ConcertTicketManagementSystem\\Program.cs",
               "RelativeDocumentMoniker": "ConcertTicketManagementSystem\\Program.cs",
@@ -103,7 +126,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
+              "Title": "VenueContext.cs",
+              "DocumentMoniker": "C:\\Users\\jtucker\\NDCConcertSystem\\NDCProject\\ConcertTicketManagementSystem\\ConcertTicketManagementSystem\\Models\\VenueContext.cs",
+              "RelativeDocumentMoniker": "ConcertTicketManagementSystem\\Models\\VenueContext.cs",
+              "ToolTip": "C:\\Users\\jtucker\\NDCConcertSystem\\NDCProject\\ConcertTicketManagementSystem\\ConcertTicketManagementSystem\\Models\\VenueContext.cs",
+              "RelativeToolTip": "ConcertTicketManagementSystem\\Models\\VenueContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T00:04:06.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "EventItemDTO.cs",
               "DocumentMoniker": "C:\\Users\\jtucker\\NDCConcertSystem\\NDCProject\\ConcertTicketManagementSystem\\ConcertTicketManagementSystem\\Models\\EventItemDTO.cs",
               "RelativeDocumentMoniker": "ConcertTicketManagementSystem\\Models\\EventItemDTO.cs",
@@ -115,7 +151,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "VenueItemDTO.cs",
               "DocumentMoniker": "C:\\Users\\jtucker\\NDCConcertSystem\\NDCProject\\ConcertTicketManagementSystem\\ConcertTicketManagementSystem\\Models\\VenueItemDTO.cs",
               "RelativeDocumentMoniker": "ConcertTicketManagementSystem\\Models\\VenueItemDTO.cs",
@@ -127,7 +163,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
               "Title": "ReservationContext.cs",
               "DocumentMoniker": "C:\\Users\\jtucker\\NDCConcertSystem\\NDCProject\\ConcertTicketManagementSystem\\ConcertTicketManagementSystem\\Models\\ReservationContext.cs",
               "RelativeDocumentMoniker": "ConcertTicketManagementSystem\\Models\\ReservationContext.cs",
@@ -135,11 +171,12 @@
               "RelativeToolTip": "ConcertTicketManagementSystem\\Models\\ReservationContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T18:17:11.011Z"
+              "WhenOpened": "2025-04-04T18:17:11.011Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "ReservationItem.cs",
               "DocumentMoniker": "C:\\Users\\jtucker\\NDCConcertSystem\\NDCProject\\ConcertTicketManagementSystem\\ConcertTicketManagementSystem\\Models\\ReservationItem.cs",
               "RelativeDocumentMoniker": "ConcertTicketManagementSystem\\Models\\ReservationItem.cs",
@@ -151,13 +188,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "ConcertTicketManagementSystem.http",
               "DocumentMoniker": "C:\\Users\\jtucker\\NDCConcertSystem\\NDCProject\\ConcertTicketManagementSystem\\ConcertTicketManagementSystem\\ConcertTicketManagementSystem.http",
               "RelativeDocumentMoniker": "ConcertTicketManagementSystem\\ConcertTicketManagementSystem.http",
               "ToolTip": "C:\\Users\\jtucker\\NDCConcertSystem\\NDCProject\\ConcertTicketManagementSystem\\ConcertTicketManagementSystem\\ConcertTicketManagementSystem.http",
               "RelativeToolTip": "ConcertTicketManagementSystem\\ConcertTicketManagementSystem.http",
-              "ViewState": "AgIAADgAAAAAAAAAAAAswEcAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBIAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
               "WhenOpened": "2025-04-02T17:44:41.734Z",
               "EditorCaption": ""
